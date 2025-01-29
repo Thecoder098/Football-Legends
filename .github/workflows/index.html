@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Football Legends</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>Football Legends</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#history">History</a></li>
+            <li><a href="#players">Legends</a></li>
+            <li><a href="#subscribe" role="button">Subscribe</a></li>
+        </ul>
+    </nav>
+    
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>Greatest Football Legends</h2>
+                    <h3>The Icons Who Defined the Game</h3>
+                </hgroup>
+                <p>Football has seen some of the most incredible players in history. These legends have not only won trophies but have inspired generations.</p>
+                <figure>
+                    <img src="https://source.unsplash.com/800x400/?football" alt="Football Legends">
+                    <figcaption><a href="https://unsplash.com/s/photos/football-legends" target="_blank">Images from Unsplash</a></figcaption>
+                </figure>
+                
+                <h3>Pele - The King of Football</h3>
+                <p>Pele, the Brazilian legend, won three World Cups and scored over 1,000 goals in his career, making him one of the greatest of all time.</p>
+                <h3>Diego Maradona - The Hand of God</h3>
+                <p>Maradona's dribbling skills and the famous "Goal of the Century" in 1986 made him an unforgettable football genius.</p>
+                <h3>Lionel Messi & Cristiano Ronaldo - Modern Greats</h3>
+                <p>Messi and Ronaldo have redefined football with their skills, records, and incredible consistency over the years.</p>
+            </section>
+        </div>
+    </main>
+    
+    <section id="subscribe" aria-label="Subscribe example">
+        <div class="container">
+            <article>
+                <hgroup>
+                    <h2>Stay Updated</h2>
+                    <h3>Subscribe for the Latest Football Legends News</h3>
+                </hgroup>
+                <form class="grid">
+                    <input type="text" id="firstname" name="firstname" placeholder="First Name" aria-label="First Name" required>
+                    <input type="email" id="email" name="email" placeholder="Email Address" aria-label="Email Address" required>
+                    <button type="submit" onclick="event.preventDefault()">Subscribe</button>
+                </form>
+            </article>
+        </div>
+    </section>
+    
+    <footer class="container">
+        <small><a href="#">Privacy Policy</a> • <a href="#">Terms of Service</a></small>
+    </footer>
+</body>
+</html>
